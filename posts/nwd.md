@@ -1,6 +1,6 @@
 ---
 title: 'Toekomst van VR in het onderwijs'
-date: '2020-01-31'
+date: '2020-07-22'
 pinned: false
 ---
 
@@ -26,7 +26,7 @@ We maakten gebruik van [NeoTrie VR](https://store.steampowered.com/app/878620/Ne
 ## De Nationale Wiskunde Dagen
 Meneer Kamerling kreeg voor zijn vernieuwende lessen een plekje op de Nationale Wiskunde Dagen, een jaarlijks evenement waar honderden docenten uit het hele land, en buitenland, bijeenkomen om te praten over wiskunde, georganiseerd door Universiteit Utrecht. Sjaak koos mij en een andere leerling, Demi, om mee te doen in de naam van de school. Een van de ontwikkelaars uit Spanje, José Luis, kwam ook naar Nederland om de workshop bij te wonen.
 
-De NWD werd gehouden in de Leeuwenhorst, een groot conferentie centrum/hotel in Noordwijkerhout. Het eerste deel van de workshop was een [presentatie](https://www.uu.nl/sites/default/files/fi_nwd_2020_sjaak_kamerling.pdf) door Kamerling met een subsectie waar ik en Demi een demo hielden met een paar opdrachten. 
+De NWD werd gehouden op 31 januari tot en met 1 februari in de Leeuwenhorst, een groot conferentie centrum/hotel in Noordwijkerhout. Het eerste deel van de workshop was een [presentatie](https://www.uu.nl/sites/default/files/fi_nwd_2020_sjaak_kamerling.pdf) door Kamerling met een subsectie waar ik en Demi een demo hielden met een paar opdrachten. 
 
 | ![Demo](/images/posts/nwd/demo.jpg "Demo") |
 | :---: | 
