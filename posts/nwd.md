@@ -24,15 +24,15 @@ We maakten gebruik van [NeoTrie VR](https://store.steampowered.com/app/878620/Ne
 | Foto's van NeoTrie VR |  
 
 ## De Nationale Wiskunde Dagen
-Meneer Kamerling kreeg voor zijn vernieuwende een plekje op de Nationale Wiskunde Dagen, een jaarlijks evenement waar honderden docenten uit het hele land, en buitenland, bijeenkomen om te praten over wiskunde, georganiseerd door Universiteit Utrecht. Sjaak koos mij en een andere leerling, Demi, om mee te doen in de naam van de school. Een van de ontwikkelaars uit Spanje, José Luis, kwam ook naar Nederland om de workshop bij te wonen.
+Meneer Kamerling kreeg voor zijn vernieuwende lessen een plekje op de Nationale Wiskunde Dagen, een jaarlijks evenement waar honderden docenten uit het hele land, en buitenland, bijeenkomen om te praten over wiskunde, georganiseerd door Universiteit Utrecht. Sjaak koos mij en een andere leerling, Demi, om mee te doen in de naam van de school. Een van de ontwikkelaars uit Spanje, José Luis, kwam ook naar Nederland om de workshop bij te wonen.
 
-De NWD werd gehouden in de Leeuwenhorst, een groot conferentie centrum/hotel in Noordwijkerhout. Het eerste deel van de workshop was een [presentatie](https://www.uu.nl/sites/default/files/fi_nwd_2020_sjaak_kamerling.pdf) door Kamerling met een subsectie waar ik en Demi een demo hielden van een paar opdrachten. 
+De NWD werd gehouden in de Leeuwenhorst, een groot conferentie centrum/hotel in Noordwijkerhout. Het eerste deel van de workshop was een [presentatie](https://www.uu.nl/sites/default/files/fi_nwd_2020_sjaak_kamerling.pdf) door Kamerling met een subsectie waar ik en Demi een demo hielden met een paar opdrachten. 
 
 | ![Demo](/images/posts/nwd/demo.jpg "Demo") |
 | :---: | 
 | De demo | 
 
-Hierna mochten de deelnemers zelf proberen om een paar opdrachten te maken met begeleiding van Demi, José en ik. Voor de mensen die zelf VR niet wilde gebruiken, lagen er rond de kamer nog allemaal andere [opdrachten](https://www.uu.nl/sites/default/files/fi_nwd_2020_kamerling_hand-out.pdf) wat te maken heeft met AR, waar deelnemers met een app en QR codes bepaalde platonische lichamen konden ontdekken.
+Hierna mochten de deelnemers zelf proberen om een paar opdrachten te maken met begeleiding van Demi, José en ik. Voor de mensen die VR niet hoefden te proberen lagen er rond de zaal nog allemaal andere [opdrachten](https://www.uu.nl/sites/default/files/fi_nwd_2020_kamerling_hand-out.pdf) wat te maken heeft met AR, waar deelnemers met een app en QR codes bepaalde platonische lichamen konden ontdekken.
 
 | ![Doe-workshop](/images/posts/nwd/nwdws.jpg "Doe-workshop") |
 | :---: | 
