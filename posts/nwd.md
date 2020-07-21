@@ -22,7 +22,7 @@ We maakten gebruik van [NeoTrie VR](https://store.steampowered.com/app/878620/Ne
 | :--: |
 | ![Foto's van NeoTrie VR](/images/posts/nwd/nt2.jpg "Foto's van NeoTrie VR") |
 | Foto's van NeoTrie VR |  
-
+ 
 ## De Nationale Wiskunde Dagen
 Meneer Kamerling kreeg voor zijn vernieuwende lessen een plekje op de Nationale Wiskunde Dagen, een jaarlijks evenement waar honderden docenten uit het hele land, en buitenland, bijeenkomen om te praten over wiskunde, georganiseerd door Universiteit Utrecht. Sjaak koos mij en een andere leerling, Demi, om mee te doen in de naam van de school. Een van de ontwikkelaars uit Spanje, José Luis, kwam ook naar Nederland om de workshop bij te wonen.
 
