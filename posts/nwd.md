@@ -31,7 +31,7 @@ De NWD werd gehouden in de Leeuwenhorst, een groot conferentie centrum/hotel in 
 | ![Demo](/images/posts/nwd/demo.jpg "Demo") |
 | :---: | 
 | De demo | 
-
+ 
 Hierna mochten de deelnemers zelf proberen om een paar opdrachten te maken met begeleiding van Demi, José en ik. Voor de mensen die VR niet hoefden te proberen lagen er rond de zaal nog allemaal andere [opdrachten](https://www.uu.nl/sites/default/files/fi_nwd_2020_kamerling_hand-out.pdf) wat te maken heeft met AR, waar deelnemers met een app en QR codes bepaalde platonische lichamen konden ontdekken.
 
 | ![Doe-workshop](/images/posts/nwd/nwdws.jpg "Doe-workshop") |
