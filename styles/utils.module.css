@@ -54,8 +54,12 @@
   
   .listItem {
     margin: 0 0 1.25rem;
+    padding-bottom: 1rem;
+    border-bottom:1px solid #30475e;
   }
-  
+  .listItem:last-child {
+    border-bottom: none;
+  }
   .lightText {
     color: #999;
   }

@@ -6,7 +6,8 @@ import Link from 'next/link'
 const name = 'Dennis'
 export const siteTitle = 'Dennis Mamedov'
 
-export default function Layout({ children, home }) {
+export default Layout => {
+  return ({children: content}) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -19,17 +20,6 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
       </Head>
       <header className={styles.header}>
-        {home ? (
-          <>
-            <img
-              src="/images/profile.jpg"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-        ) : (
-          <>
             <Link href="/">
               <a>
                 <img
@@ -44,24 +34,19 @@ export default function Layout({ children, home }) {
                 <a className={utilStyles.colorInherit}>{name}</a>
               </Link>
             </h2>
-          </>
-        )}
       </header>
-      {!home && (
         <div>
           <Link href="/">
             <a>← Home</a>
           </Link>
         </div>
-      )}
-      <main>{children}</main>
-      {!home && (
+      <main>{content}</main>
         <div>
           <Link href="/">
             <a>← Home</a>
           </Link>
         </div>
-      )}
     </div>
-  )
+    )
+  }
 }

@@ -62,12 +62,3 @@ h1, h2, h3 {
 {
 	background-color: #30475e;
 }
-
-ul li {
-  padding-bottom: 1rem;
-  
-  border-bottom:1px solid #30475e;
-}
-ul li:last-child {
-  border-bottom: none;
-}
