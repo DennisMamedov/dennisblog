@@ -17,6 +17,11 @@ export default function BlogsPage() {
         <Head>
             <title>dennis mamedov blog</title>
         </Head>
+        <div>
+          <Link href="/">
+            <a>← Home</a>
+          </Link>
+        </div>
             <section className={utilStyles.headingMd}>
                 <p>Hoi, dit is mijn blog. Hier komt van alles wat ik interessant vind.</p>
             </section>

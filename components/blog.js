@@ -36,14 +36,14 @@ export default Layout => {
             </h2>
       </header>
         <div>
-          <Link href="/">
-            <a>← Home</a>
+          <Link href="/blog">
+            <a>← Blog Index</a>
           </Link>
         </div>
       <main>{content}</main>
         <div>
-          <Link href="/">
-            <a>← Home</a>
+          <Link href="/blog">
+            <a>← Blog Index</a>
           </Link>
         </div>
     </div>
