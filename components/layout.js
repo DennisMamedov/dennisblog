@@ -15,7 +15,6 @@ export default function Layout({ children, home }) {
         <meta property="og:title" content={siteTitle} />
         <meta property="og:description" content="De blog van Dennis Mamedov" />
         <meta property="og:url" content="dennismamedov.info" />
-        <meta property="og:image" content="https://i.imgur.com/sOwYhND.jpg" />
         <meta name="og:title" content={siteTitle} />
       </Head>
       <header className={styles.header}>
