@@ -8,10 +8,9 @@ export default function Layout({ children, home }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:type" content="blog" />
-        <meta property="og:title" content="Dennis" />
+        <meta property="og:title" content="404 not found" />
         <meta property="og:description" content="De blog van Dennis Mamedov" />
         <meta property="og:url" content="dennismamedov.info" />
-        <meta property="og:image" content="https://i.imgur.com/sOwYhND.jpg" />
       </Head>
       <main>{children}</main>
     </div>

@@ -1,0 +1,68 @@
+---
+layout: 'blog'
+title: 'Hoe werkt deze site?'
+date: '2020-07-25'
+pinned: true
+---
+
+import { Box } from 'rebass'
+
+# Waarom?
+Zoals ik al heb gezegd in '[Huh?](/blog/huh)' is het doel van deze blog om mijn projecten en ervaringen te delen. Daarom moest ik zoeken voor een goede manier om een blog te maken.
+Ik wilde geen website-builder gebruiken, omdat ik de site in mijn eigen handen wil hebben. Ook wil ik leren hoe het nou echt moet.
+
+# Hoe?
+Daarom gebruik ik [Next.js](https://nextjs.org/) voor deze site; een [React](https://reactjs.org/) Framework dat perfect is voor mijn idee. React is een soortvan XML in Javascript, waardoor het dus eigenlijk HTML in Javascript is. Aan het begin van het bouwen van mijn site had ik een heel vaag idee wat React was, maar een paar slapeloze nachten verder durf ik te zeggen dat ik me wel comfortabel voel met React.
+
+De site is open source op [mijn Github repo](https://github.com/DennisMamedov/dennisblog) voor als je daar naar wilt kijken. Keep in mind dat dit mijn eerste React project is. Je kan zelfs nogsteeds de tutorial template een beetje zien in de design van mijn site, maar ik vind het perfect zo. Ik had het niet anders gewilt.
+
+Als eerst gebruikte ik normale Markdown files, want ik dacht dat die perfect zouden zijn voor een blog. Maar toen ik '[VR in het onderwijs post](/blog/nwd)' schreef kwam ik erachter dat als ik `<img>` elements goed wil kunnen stylen, dat ik dan tekort kom met Markdown.
+Toen vond ik [mdxjs](https://mdxjs.com/), dat zijn eigenlijk normale Markdown files, maar met JSX functionaliteiten. Dat betekent dat ik React componenten kan importeren in mijn blogposts.
+
+Een voorbeeld van een React component in Markdown:
+<Box
+  color='primary'
+  bg='tomato'
+  p={3}
+  my={5}
+>
+Dit is een Rebass-Box in Markdown
+</Box>
+
+```js
+import { Box } from 'rebass'
+
+...
+
+Een voorbeeld van een React component in Markdown:
+<Box
+  color='primary'
+  bg='tomato'
+  p={3}
+  my={5}
+>
+Dit is een Rebass-Box in Markdown
+</Box>
+```
+[Hier](https://github.com/DennisMamedov/dennisblog/blob/dev/pages/blog/site.mdx) heb je de volledige MDX file van deze post.
+
+Natuurlijk heeft elke blogpost ook wat metadata zoals de titel, datum en of het gepinned is of niet. Dat kan je makkelijk verstoppen in de `frontmatter` van een `.md/.mdx` file. Daarmee kan ik dan in de index pagina alle data van lezen.
+De `frontmatter` van deze file ziet er zo uit:
+```
+---
+layout: 'blog'
+title: 'Hoe werkt deze site?'
+date: '2020-07-25'
+pinned: false
+---
+
+... De rest van de .md/.mdx file
+```
+`layout: 'blog'` is vereist door mdxjs. Dat is de layout waar deze pagina in rendered. [Hier](https://github.com/DennisMamedov/dennisblog/blob/master/components/blog.js) vind je 'm.
+
+# Deployment
+Ik host de site op een [DigitalOcean](https://digitalocean.com/) droplet. Ik heb het zo ingesteld dat de server elke keer opnieuw `npm run build` en `pm2 reload blog` runt als hij een nieuwe push op master ziet.
+Oftewel, elke keer dat ik een update push naar de master branch op github, refreshed hij de site automatisch met de update. Dit hele proces duurt ongeveer 1 min en is gedaan met een [GitHub Workflow](https://github.com/DennisMamedov/dennisblog/blob/master/.github/workflows/node.js.yml).
+
+# Conclusie
+Ik zie nog wel waar ik naartoe ga met deze website, maar tot nu toe heb ik al best veel geleerd.

@@ -2,21 +2,20 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-
+import Date from './date'
 const name = 'Dennis'
 export const siteTitle = 'Dennis Mamedov'
 
-export default Layout => {
+export default function Layout(frontMatter) {
   return ({children: content}) => {
   return (
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:type" content="blog" />
-        <meta property="og:title" content={siteTitle} />
-        <meta property="og:description" content="De blog van Dennis Mamedov" />
+        <meta property="og:title" content={frontMatter.title} />
+        <meta property="og:description" content={frontMatter.title} />
         <meta property="og:url" content="dennismamedov.info" />
-        <meta property="og:image" content="https://i.imgur.com/sOwYhND.jpg" />
         <meta name="og:title" content={siteTitle} />
       </Head>
       <header className={styles.header}>
@@ -40,7 +39,14 @@ export default Layout => {
             <a>← Blog Index</a>
           </Link>
         </div>
-      <main>{content}</main>
+        <article>
+          <h1 className={utilStyles.headingXl}>{frontMatter.title}</h1>
+          <div className={utilStyles.lightText}>
+            <Date dateString={frontMatter.date} />
+          </div>
+        <main>{content}</main>
+        </article>
+
         <div>
           <Link href="/blog">
             <a>← Blog Index</a>
